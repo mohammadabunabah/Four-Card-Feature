@@ -1,0 +1,37 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    font-size: 16px;
+    font-family: Poppins;
+    background-color: hsl(0, 0%, 98%);
+}
+header > * {
+    text-align: center;
+}
+header > h1, header > h2 {
+font-size: 30px;
+}
+header > p {
+    font-size: 15px;
+}
+.card-supervisor{
+    border: none;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    margin: 15px;
+}
+.card-team-builder{
+    border: none;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin: 15px;
+}
+.card-karma{
+    border: none;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin: 15px;
+}
+.card-calculater{
+    border: none;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    margin: 15px;
+}
